@@ -3,10 +3,10 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import Image from "next/image";
-import {
-  RegisterLink,
-  LoginLink,
-} from "@kinde-oss/kinde-auth-nextjs/components";
+// import {
+//   RegisterLink,
+//   LoginLink,
+// } from "@kinde-oss/kinde-auth-nextjs/components";
 
 export default function Home() {
   return (
@@ -157,8 +157,8 @@ export default function Home() {
                 className="rounded-md bg-white p-2 sm:p-8 md:p-20 shadow-2xl ring-1 ring-gray-900/10"
               />
             </div>
-            <LoginLink>Sign in</LoginLink>
-            <RegisterLink>Sign up</RegisterLink>
+            {/* <LoginLink>Sign in</LoginLink>
+            <RegisterLink>Sign up</RegisterLink> */}
           </div>
         </div>
       </div>
